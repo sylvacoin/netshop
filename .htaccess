@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /netshop/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Force https
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^localhost\/netshop
+RewriteRule ^(.*)$ https://localhost/netshop/$1 [R=301,L]
+
+# Force https
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?netshop\.com
+RewriteRule ^(.*)$ https://www.netshop.com/$1 [R=301,L]
+

@@ -1,0 +1,40 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-04-14 00:30:37 --> Severity: Warning --> session_regenerate_id(): Cannot regenerate session id - session is not active C:\xampp\htdocs\aianet\system\libraries\Session\Session.php 720
+ERROR - 2018-04-14 00:30:38 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:30:43 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:30:48 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:36:04 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:40:19 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:40:20 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:41:21 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:41:21 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:41:58 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:41:58 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:42:14 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:42:14 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 00:42:30 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 15:01:19 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 15:01:20 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 15:03:40 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 15:03:56 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:42 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:43 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:45 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:45 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:45 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:45 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:57 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:57 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:58 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:59 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:55:59 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:06 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:06 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:07 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:07 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:08 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:16 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:16 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:16 --> 404 Page Not Found: /index
+ERROR - 2018-04-14 19:56:16 --> 404 Page Not Found: /index

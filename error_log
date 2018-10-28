@@ -1,0 +1,21 @@
+[16-Apr-2018 18:47:23 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[16-Apr-2018 18:47:35 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[16-Apr-2018 18:49:54 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[24-Apr-2018 02:17:58 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[24-Apr-2018 02:24:11 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[24-Apr-2018 09:21:21 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[24-Apr-2018 09:24:27 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[24-Apr-2018 09:25:19 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[17-May-2018 17:44:02 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[17-May-2018 17:45:10 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[17-May-2018 17:47:00 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[17-May-2018 17:47:42 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[18-May-2018 11:28:45 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[18-May-2018 11:33:50 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[18-May-2018 11:34:27 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[18-May-2018 13:24:14 America/New_York] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/aianzhbz/public_html/application/modules/auth/controllers/Auth.php on line 51
+[18-May-2018 13:25:47 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/aianzhbz/public_html/application/modules/auth/controllers/vendor/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/aianzhbz/public_html/application/modules/auth/controllers/Auth.php on line 5
+[08-Jun-2018 05:04:37 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[08-Jun-2018 05:52:15 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[27-Jun-2018 09:30:10 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
+[09-Jul-2018 07:03:47 America/New_York] PHP Fatal error:  Call to a member function format() on null in /home/aianzhbz/public_html/application/modules/products/views/view_single.php on line 111
