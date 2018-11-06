@@ -19,7 +19,7 @@
 
     <div class="form-group">
         <label class="sr-only" for="price">Price</label>
-        <input type="text" class="form-control" name="price" id="price" placeholder="Product Price" value="<?= isset($product) ? $product : set_value('price') ?>">
+        <input type="text" class="form-control" name="price" id="price" placeholder="Product Price" value="<?= isset($price) ? $price : set_value('price') ?>">
     </div>
 
 
@@ -40,7 +40,7 @@
 
     <div class="form-group">
         <label for="preview" class="control-label">Product Image:</label>
-        <input type="file" name="preview" id="preview" value="" required="required" multiple>
+        <input type="file" name="preview[]" id="preview" value="" required="required" multiple>
     </div>
 
 

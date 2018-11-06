@@ -169,6 +169,10 @@ class Uploader {
         return json_encode($this->FileArray());
     }
 
+    public function FileJsonSerialize() {
+        return json_encode(Serialize($this->FileArray()));
+    }
+
     /*
      * Handles the file upload...
      * requirements

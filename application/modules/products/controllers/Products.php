@@ -8,9 +8,10 @@ class Products extends MX_Controller {
 
     public function __construct() {
         $this->load->library(['Module_settings']);
-        $this->load->model(["Mdl_products"]);
+        $this->load->model(["mdl_products", "Mdl_products"]);
         $this->load->module(["template"]);
         $this->load->library("Uploader");
+        $this->load->library('debugger');
     }
 
     public function index() {
@@ -26,6 +27,19 @@ class Products extends MX_Controller {
         $this->template->backend($data);
     }
 
+    public function edit($id = null) {
+        if (!is_numeric($id)) {
+            redirect('/view');
+        }
+        if ($this->form_validation->run($this, 'products') == TRUE) {
+            $this->_submit_data();
+        }
+        $product = $this->mdl_products->get_where($id)->row_array();
+        //$this->module_settings->debug($product);
+        $data = $this->module_settings->page_settings("create", $product, null, "products");
+        $this->template->backend($data);
+    }
+
     public function view() {
         $role = $this->session->role;
         $role_name = Modules::run("users/role/get_role_name", $role);
@@ -37,7 +51,6 @@ class Products extends MX_Controller {
             $products = $this->Mdl_products->get('id');
         }
         $data = $this->module_settings->page_settings("view", $products->result(), 'products', "my products");
-        //$this->module_settings->debug($data);
         $this->template->backend($data);
     }
 
@@ -55,19 +68,19 @@ class Products extends MX_Controller {
         //get data from post
         $data = $this->_get_data_from_post();
         $id = $this->uri->segment(3);
-
+        //$this->debugger->debug($_FILES);
         if (isset($_FILES['preview']) && !empty($_FILES['preview']['name'][0])) {
-            $data["preview"] = $this->uploader->upload_multiple('preview')->FileJsonArray();
-            // $this->debugger->debug($photo);
+            $data["preview"] = $this->uploader->upload_multiple('preview')->FileJsonSerialize();
         }
 
         if (is_numeric($id)) {
-            //its an updata
+            //its an update
             if ($this->Mdl_products->_update($id, $data)) {
                 $this->session->set_flashdata('success', "Product was updated successfully");
                 redirect('products/view');
             }
         } else {
+            //$this->debugger->debug($data);
             if ($this->Mdl_products->_insert($data)) {
                 $this->session->set_flashdata('success', "New products was added successfully");
                 redirect('products/view');
